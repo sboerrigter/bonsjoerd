@@ -25,3 +25,19 @@
     @apply cursor-pointer text-green-500 font-bold hover:underline decoration-2 underline-offset-4;
   }
 }
+
+@layer components {
+  .photo {
+    margin-top: 30px;
+    box-shadow: 30px -30px 0 0 #006666;
+    width: calc(100% - 30px);
+  }
+
+  @media screen(lg) {
+    .photo {
+      margin-top: 60px;
+      box-shadow: 60px -60px 0 0 #006666;
+      width: calc(100% - 60px);
+    }
+  }
+}

@@ -5,15 +5,12 @@ import Wrap from "@/components/Wrap";
 export default function Home() {
   return (
     <>
-      <Wrap className="py-6 md:py-9">
-        <div
-          className="flex gap-4 items-center jusify-center lowercase text-xl font-semibold
-          md:text-2xl"
-        >
+      <Wrap className="py-6 lg:py-9">
+        <div className="flex gap-4 items-center jusify-center lowercase text-xl font-semibold lg:text-2xl">
           <Image
             className="
             w-10 h-10
-            md:w-12 md:h-12
+            lg:w-12 lg:h-12
             "
             src="/bonsjoerd.svg"
             alt="Bonsjoerd"
@@ -24,24 +21,38 @@ export default function Home() {
           BonSjoerd
         </div>
       </Wrap>
-      <Wrap className="py-[60px]">
-        <h2 className="h1">Hello, I am Sjoerd</h2>
-        <p>
-          I am a creative designer &amp; web developer from the Netherlands,
-          living in Sarlat-la-Canéda in the south of France. I am still learning
-          French, but I am good at{" "}
-          <a href="#services">branding, design &amp; web development</a>. In my
-          free time I am{" "}
-          <a
-            href="https://www.youtube.com/channel/UCNHwMsWwnJHmLAcJgup1-EQ"
-            target="blank"
-          >
-            renovating
-          </a>{" "}
-          our 150 year old house.
-        </p>
+
+      <Wrap className="flex flex-col-reverse lg:flex-row gap-x-15 items-center lg:items-start lg:-mb-30">
+        <div className="py-15 max-w-[480px] lg:w-[40%]">
+          <h2 className="h1">Hello, I am Sjoerd</h2>
+          <p>
+            I am a creative designer &amp; web developer from the Netherlands,
+            living in Sarlat-la-Canéda in the south of France. I am still
+            learning French, but I am good at{" "}
+            <a href="#services">branding, design &amp; web development</a>. In
+            my free time I am{" "}
+            <a
+              href="https://www.youtube.com/channel/UCNHwMsWwnJHmLAcJgup1-EQ"
+              target="blank"
+            >
+              renovating
+            </a>{" "}
+            our 150 year old house.
+          </p>
+        </div>
+        <div className="w-full max-w-[480px] lg:max-w-[660px] lg:w-[55%]">
+          <Image
+            src="/sjoerd.jpg"
+            className="photo rounded-xl z-1"
+            alt="Sjoerd Boerrigter"
+            width={600}
+            height={720}
+            priority
+          />
+        </div>
       </Wrap>
-      <div className="bg-yellow-50 py-[60px]" id="services">
+
+      <div className="bg-yellow-50 py-15 lg:pt-45" id="services">
         <Wrap>
           <h1 className="h2">Branding, design & web development</h1>
           <p>
@@ -56,7 +67,8 @@ export default function Home() {
           </p>
         </Wrap>
       </div>
-      <div className="bg-green-600 text-white py-[60px]" id="contact">
+
+      <div className="bg-green-600 text-white py-15" id="contact">
         <Wrap>
           <h2>Get in touch</h2>
           <p>

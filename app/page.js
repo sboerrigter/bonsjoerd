@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Wrap from "@/components/Wrap";
 
 export default function Home() {
@@ -9,7 +8,7 @@ export default function Home() {
         <div className="flex gap-4 items-center jusify-center lowercase text-xl font-semibold lg:text-2xl">
           <Image
             className="
-            w-10 h-10
+            w-10 h-10 animate-rock
             lg:w-12 lg:h-12
             "
             src="/bonsjoerd.svg"

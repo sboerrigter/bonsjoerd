@@ -47,6 +47,7 @@ export default function Home() {
             alt="Sjoerd Boerrigter"
             width={600}
             height={720}
+            sizes="(max-width: 530px) 100vw, (max-width: 1023px) 450px, 600px"
             priority
           />
         </div>

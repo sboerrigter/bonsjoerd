@@ -86,8 +86,8 @@ export default function Home() {
           </p>
           <p>Siret: 98494519600017</p>
           <p>
-            <a className="text-white" href="mailto:bonjour@bonsjoerd.fr">
-              bonjour@bonsjoerd.fr
+            <a className="text-white" href="mailto:sjoerd@bonsjoerd.fr">
+              sjoerd@bonsjoerd.fr
             </a>
             <br />
             <a className="text-white" href="tel:+31646277318">

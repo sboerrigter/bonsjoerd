@@ -54,14 +54,8 @@ export default function Home() {
         </div>
       </Wrap>
 
-      <div
-        className="
-          bg-yellow-50 pt-10 pb-15
-          lg:pb-15 lg:pt-45
-        "
-        id="services"
-      >
-        <Wrap className="flex flex-col lg:flex-row gap-x-15 items-center">
+      <div className="bg-yellow-50 pt-10 pb-30 lg:pt-45" id="services">
+        <Wrap className="flex flex-col lg:flex-row gap-x-15 items-center mb-15">
           <h1
             className="
               text-[40px] leading-tight mb-6
@@ -91,34 +85,51 @@ export default function Home() {
             </p>
           </div>
         </Wrap>
+
+        <Wrap>
+          <div className="w-full p-10 shadow bg-white text-center rounded-lg">
+            <p>
+              I'll put some projects that I am proud of here when I have time...
+              😅
+            </p>
+          </div>
+        </Wrap>
       </div>
 
-      <div className="bg-green-600 text-white py-15" id="contact">
+      <div className="bg-green-700 text-white -mt-1 pt-1" id="contact">
         <Wrap>
-          <h2>Get in touch</h2>
-          <p>
-            Don't hesitate to contact me if you need help with branding, design
-            or web development. I am happy to help where I can!
-          </p>
-          <p>
-            <strong>Sjoerd Boerrigter</strong>
-            <br />
-            13 Côte de Ravat
-            <br />
-            24200 Sarlat-la-Canéda
-            <br />
-            La France
-          </p>
-          <p>Siret: 98494519600017</p>
-          <p>
-            <a className="text-white" href="mailto:sjoerd@bonsjoerd.fr">
-              sjoerd@bonsjoerd.fr
-            </a>
-            <br />
-            <a className="text-white" href="tel:+31646277318">
-              +31 646 277 318
-            </a>
-          </p>
+          <div className="bg-green-600 -mt-15 p-10 rounded-xl">
+            <h2 className="text-[50px] leading-tight mb-6 xl:text-[60px]">
+              Get in touch
+            </h2>
+            <p>
+              Don't hesitate to contact me if you need help with branding,
+              design or web development. I am happy to help where I can!
+            </p>
+            <p>
+              <strong>Sjoerd Boerrigter</strong>
+              <br />
+              13 Côte de Ravat
+              <br />
+              24200 Sarlat-la-Canéda
+              <br />
+              La France
+            </p>
+            <p>Siret: 98494519600017</p>
+            <p>
+              <a className="text-white" href="mailto:sjoerd@bonsjoerd.fr">
+                sjoerd@bonsjoerd.fr
+              </a>
+              <br />
+              <a className="text-white" href="tel:+31646277318">
+                +31 646 277 318
+              </a>
+            </p>
+          </div>
+
+          <div className="text-center py-8">
+            &copy; {new Date().getFullYear()} - Sjoerd Boerrigter
+          </div>
         </Wrap>
       </div>
     </>

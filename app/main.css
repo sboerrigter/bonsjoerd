@@ -10,7 +10,7 @@
   }
 
   p {
-    @apply text-lg leading-[30px] mb-6 last:mb-0;
+    @apply text-lg leading-[30px] mb-[30px] last:mb-0;
   }
 
   a {

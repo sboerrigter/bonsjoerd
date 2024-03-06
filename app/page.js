@@ -78,11 +78,11 @@ export default function Home() {
             </p>
             <p>
               I have {new Date().getFullYear() - 2008} years experience as
-              design &amp; web development and I love working with{" "}
+              design &amp; web developer, building modern websites using{" "}
               <strong>Sketch</strong>, <strong>React</strong>,{" "}
               <strong>Next.js</strong>, <strong>Tailwind CSS</strong> and{" "}
               <strong>WordPress</strong>. So don't hesitate to{" "}
-              <a href="#contact">contact</a> me if you want to grow your
+              <a href="#contact">contact me</a> if you want to grow your
               business!
             </p>
           </div>

@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+const theme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -41,6 +42,11 @@ module.exports = {
           "100%": { transform: "translate(0, 0) rorate(0deg)" },
         },
       },
+    },
+    screens: {
+      "2xs": "360px",
+      xs: "480px",
+      ...theme.screens,
     },
   },
   plugins: [],

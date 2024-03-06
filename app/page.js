@@ -22,11 +22,13 @@ export default function Home() {
       </Wrap>
 
       <Wrap className="flex flex-col-reverse lg:flex-row gap-x-15 items-center lg:items-start lg:-mb-30">
-        <div className="py-15 max-w-[480px] lg:w-[40%]">
-          <h2 className="h1">Hello, I am Sjoerd</h2>
+        <div className="pt-10 pb-15 lg:py-15 max-w-[480px] lg:w-[40%]">
+          <h2 className="text-6xl mb-6 xs:text-[80px] xs:mb-8">
+            Hello, I am Sjoerd
+          </h2>
           <p>
-            I am a creative designer &amp; web developer from the Netherlands,
-            living in Sarlat-la-Canéda in the south of France. I am still
+            I am a freelance designer &amp; web developer from the Netherlands,
+            living in Sarlat-la-Canéda in the south of France. I'm still
             learning French, but I am good at{" "}
             <a href="#services">branding, design &amp; web development</a>. In
             my free time I am{" "}
@@ -52,19 +54,42 @@ export default function Home() {
         </div>
       </Wrap>
 
-      <div className="bg-yellow-50 py-15 lg:pt-45" id="services">
-        <Wrap>
-          <h1 className="h2">Branding, design & web development</h1>
-          <p>
-            I like to help businesses to define their brand identity and present
-            themselves in an attractive way. I can help you to stand out to your
-            ideal clients and use the internet to attract new customers.
-          </p>
-          <p>
-            I have 16 years experience with branding, design & web development.
-            So don't hesitate to <a href="#contact">contact</a> me if you want
-            to grow your business. I am happy to help where I can!
-          </p>
+      <div
+        className="
+          bg-yellow-50 pt-10 pb-15
+          lg:pb-15 lg:pt-45
+        "
+        id="services"
+      >
+        <Wrap className="flex flex-col lg:flex-row gap-x-15 items-center">
+          <h1
+            className="
+              text-[40px] leading-tight mb-6
+              xs:text-[50px]
+              lg:w-[40%] lg:mb-0
+              xl:text-[60px]
+            "
+          >
+            Branding, design&nbsp;&amp; web development
+          </h1>
+
+          <div className="lg:w-[55%]">
+            <p>
+              I like to help businesses to define their brand identity and
+              present themselves in an attractive way. I can help you to stand
+              out to your ideal clients and use the internet to attract new
+              customers.
+            </p>
+            <p>
+              I have {new Date().getFullYear() - 2008} years experience as
+              design &amp; web development and I love working with{" "}
+              <strong>Sketch</strong>, <strong>React</strong>,{" "}
+              <strong>Next.js</strong>, <strong>Tailwind CSS</strong> and{" "}
+              <strong>WordPress</strong>. So don't hesitate to{" "}
+              <a href="#contact">contact</a> me if you want to grow your
+              business!
+            </p>
+          </div>
         </Wrap>
       </div>
 

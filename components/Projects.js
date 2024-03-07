@@ -120,7 +120,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="bg-yellow-50 pt-15 pb-30 xl:pt-45" id="services">
+    <section className="bg-yellow-50 pt-15 pb-30 xl:py-45" id="services">
       <Wrap className="flex flex-col md:flex-row gap-x-15 mb-15">
         <h1
           className="

@@ -25,7 +25,7 @@ export default function Projects() {
     {
       title: "The Flavor of Happiness",
       services: "Branding",
-      link: "#",
+      link: "/theflavorofhappiness.pdf",
     },
     {
       title: "DartsKing",
@@ -40,7 +40,7 @@ export default function Projects() {
     {
       title: "Naris",
       services: "UX/UI Design",
-      link: "#",
+      link: "/naris.pdf",
     },
     {
       title: "Ecommerce News",
@@ -52,13 +52,11 @@ export default function Projects() {
       services: "Branding, webdesign & development",
       link: "https://www.streaminglikeaboss.nl/",
     },
-
     {
       title: "B&O Leselschade",
       services: "Branding, webdesign & development",
       link: "https://www.juristenkantoor.nl/",
     },
-
     {
       title: "Menkehorst Kwekerijën",
       services: "Webdesign & development",
@@ -104,13 +102,11 @@ export default function Projects() {
       services: "Web development",
       link: "https://www.vdmcars.de/",
     },
-
     {
       title: "ESS Easy Drain",
       services: "Webdesign & development",
       link: "https://www.easydrain.com/",
     },
-
     {
       title: "Velda",
       services: "Webdesign & development",

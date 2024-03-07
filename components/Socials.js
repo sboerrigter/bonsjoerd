@@ -77,7 +77,7 @@ export default function Socials() {
           href={link.href}
           target="_blank"
           rel="nofollow"
-          className="w-12 h-12 flex items-center justify-center rounded-full text-gray-800 bg-white hover:bg-yellow-500"
+          className="w-12 h-12 flex items-center justify-center rounded-full text-gray-800 bg-white hover:bg-yellow-500 transition-colors"
         >
           {link.icon}
         </a>

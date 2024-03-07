@@ -1,4 +1,5 @@
 const theme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
@@ -7,19 +8,23 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        green: {
-          500: "#009999",
-          600: "#006666",
-          700: "#004D4D",
-        },
-        yellow: {
-          50: "#FEFAF1",
-          500: "#FFC34D",
-          600: "#E6A117",
-        },
+    colors: {
+      white: "white",
+      transparent: "transparent",
+      gray: colors.gray,
+      green: {
+        500: "#009999",
+        600: "#006666",
+        700: "#004D4D",
       },
+      yellow: {
+        50: "#FEFAF1",
+        300: "#FFE6B3",
+        500: "#FFC34D",
+        600: "#E6A117",
+      },
+    },
+    extend: {
       spacing: {
         7.5: "1.875rem", // 30px
         15: "3.75rem", // 60px

@@ -1,10 +1,11 @@
 import Image from "next/image";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Wrap from "@/components/Wrap";
 
 export default function Header() {
   return (
     <header>
-      <Wrap className="py-6 lg:py-9">
+      <Wrap className="py-6 lg:py-9 flex justify-between">
         <div className="flex gap-4 items-center jusify-center lowercase text-xl font-semibold lg:text-2xl">
           <Image
             className="
@@ -19,6 +20,8 @@ export default function Header() {
           />
           BonSjoerd
         </div>
+
+        <LanguageSwitcher />
       </Wrap>
     </header>
   );

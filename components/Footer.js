@@ -13,7 +13,7 @@ export default function Footer() {
             Don't hesitate to contact me if you need help with branding, design
             or web development. I am happy to help where I can!
           </p>
-          <Button className="mb-[30px]" href="mailto:sjoerd@bonsjoerd.fr">
+          <Button className="mb-7.5" href="mailto:sjoerd@bonsjoerd.fr">
             Send me an e-mail
           </Button>
           <p>

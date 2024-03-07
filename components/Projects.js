@@ -1,6 +1,128 @@
 import Wrap from "@/components/Wrap";
 
 export default function Projects() {
+  const projects = [
+    {
+      title: "Maison 1870",
+      services: "Branding, design & web development",
+      link: "https://maison1870.com/",
+    },
+    {
+      title: "Keizers tegels & sanitair",
+      services: "Webdesign & development",
+      link: "https://www.keizerssanitair.nl/",
+    },
+    {
+      title: "Actief Twente",
+      services: "Branding, webdesign & development",
+      link: "https://www.actieftwente.nl/",
+    },
+    {
+      title: "Android Planet",
+      services: "Agile web development",
+      link: "https://www.androidplanet.nl/",
+    },
+    {
+      title: "The Flavor of Happiness",
+      services: "Branding",
+      link: "#",
+    },
+    {
+      title: "DartsKing",
+      services: "Agile web development",
+      link: "https://dartsking.nl/",
+    },
+    {
+      title: "Dutch Shape",
+      services: "Web development",
+      link: "https://www.dutch-shape.nl/",
+    },
+    {
+      title: "Naris",
+      services: "UX/UI Design",
+      link: "#",
+    },
+    {
+      title: "Ecommerce News",
+      services: "Agile web development",
+      link: "https://ecommercenews.eu/",
+    },
+    {
+      title: "Streaming like a boss",
+      services: "Branding, webdesign & development",
+      link: "https://www.streaminglikeaboss.nl/",
+    },
+
+    {
+      title: "B&O Leselschade",
+      services: "Branding, webdesign & development",
+      link: "https://www.juristenkantoor.nl/",
+    },
+
+    {
+      title: "Menkehorst Kwekerijën",
+      services: "Webdesign & development",
+      link: "https://www.menkehorst.nl/",
+    },
+    {
+      title: "SKIM",
+      services: "Webdesign & development",
+      link: "https://www.skimgroup.com/",
+    },
+    {
+      title: "Z-wave",
+      services: "Web development",
+      link: "https://www.z-wave.com/",
+    },
+    {
+      title: "Eventbureau.nl",
+      services: "Webdesign & development",
+      link: "https://www.eventbureau.nl/",
+    },
+    {
+      title: "Combidesk",
+      services: "UI/UX design & web development",
+      link: "https://combidesk.com/",
+    },
+    {
+      title: "Aworkx workwear",
+      services: "Webdesign & development",
+      link: "https://www.aworkx.nl/",
+    },
+    {
+      title: "SW Vastgoedverbetering",
+      services: "Web development",
+      link: "https://www.swbv.nl/",
+    },
+    {
+      title: "Artiestenbureau.nl",
+      services: "Webdesign & development",
+      link: "https://www.artiestenbureau.nl/",
+    },
+    {
+      title: "VDM Cars",
+      services: "Web development",
+      link: "https://www.vdmcars.de/",
+    },
+
+    {
+      title: "ESS Easy Drain",
+      services: "Webdesign & development",
+      link: "https://www.easydrain.com/",
+    },
+
+    {
+      title: "Velda",
+      services: "Webdesign & development",
+      link: "https://www.velda.com/",
+    },
+    {
+      title: "Quality bookings",
+      services: "Webdesign & development",
+      link: "https://www.quality-bookings.nl/",
+    },
+  ];
+
   return (
     <section className="bg-yellow-50 pt-15 pb-30 xl:pt-45" id="services">
       <Wrap className="flex flex-col md:flex-row gap-x-15 mb-15">
@@ -32,13 +154,29 @@ export default function Projects() {
         </div>
       </Wrap>
 
-      <Wrap>
-        <div className="w-full p-10 shadow-lg bg-white text-center rounded-lg">
-          <p>
-            I'll put some projects that I am proud of here when I have time...
-            😅
-          </p>
-        </div>
+      <Wrap className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7.5">
+        {projects.map((project) => (
+          <a
+            className="text-gray-800 hover:no-underline text-center group"
+            target="_blank"
+            rel="nofollow"
+            href={project.link}
+            key={project.title}
+          >
+            <div className="aspect-square p-10 shadow-lg bg-white rounded-lg mb-5 group-hover:shadow-xl transition-shadow">
+              <div className="aspect-square bg-yellow-100 flex items-center justify-center p-5 font-normal italic text-gray-600">
+                I'll add an image here
+                <br /> when I have time... 😅
+              </div>
+            </div>
+            <h3 className="font-semibold text-lg group-hover:text-green-500">
+              {project.title}
+            </h3>
+            <p className="font-normal text-base text-gray-600">
+              {project.services}
+            </p>
+          </a>
+        ))}
       </Wrap>
     </section>
   );

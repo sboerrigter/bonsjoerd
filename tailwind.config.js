@@ -21,9 +21,10 @@ module.exports = {
         },
       },
       spacing: {
-        15: "3.75rem",
-        30: "7.5rem",
-        45: "11.25rem",
+        7.5: "1.875rem", // 30px
+        15: "3.75rem", // 60px
+        30: "7.5rem", // 120px
+        45: "11.25rem", // 180px
       },
       animation: {
         rock: "rock 5s ease-out 1",

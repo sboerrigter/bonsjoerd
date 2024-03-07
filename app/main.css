@@ -10,11 +10,11 @@
   }
 
   p {
-    @apply text-lg leading-[30px] mb-[30px] last:mb-0;
+    @apply text-lg leading-[30px] mb-7.5 last:mb-0;
   }
 
   a {
-    @apply cursor-pointer text-green-500 font-bold hover:underline decoration-2 underline-offset-4;
+    @apply cursor-pointer text-green-500 font-bold hover:underline decoration-2 underline-offset-4 transition-colors;
   }
 }
 

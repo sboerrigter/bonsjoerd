@@ -8,7 +8,7 @@ export default function Footer() {
       <Wrap>
         <div
           id="contact"
-          className="bg-green-600 -mt-15 p-5 pb-10 2xs:p-10 2xs:pb-15 xl:p-15 xl:pt-10 rounded-xl"
+          className="bg-green-600 -mt-15 p-5 pb-10 2xs:p-10 2xs:pb-15 xl:p-15 xl:pb-20 xl:pt-15 rounded-xl"
         >
           <h2 className="text-[50px] leading-tight mb-6 xl:text-[60px] ">
             Get in touch

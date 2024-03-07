@@ -165,8 +165,23 @@ export default function Projects() {
                 <br /> when I have time... 😅
               </div>
             </div>
-            <h3 className="font-semibold text-lg group-hover:text-green-500">
+            <h3 className="font-semibold text-lg group-hover:text-green-500 flex justify-center items-center">
               {project.title}
+
+              <span className="inline-block w-0 h-auto overflow-visible opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all">
+                <svg
+                  className="w-6 h-6"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="square"
+                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </span>
             </h3>
             <p className="font-normal text-base text-gray-600">
               {project.services}

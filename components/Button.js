@@ -6,7 +6,7 @@ export default function Button({ children, className, href }) {
         font-semibold hover:no-underline
         inline-flex gap-3 items-center justify-center
         px-6 py-3 rounded-full group
-        group hover:pr-0 transition-all duration-200
+        group hover:pr-0 transition-all
         ${className}
       `}
       href={href}
@@ -14,12 +14,11 @@ export default function Button({ children, className, href }) {
       {children}
 
       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="2"
+        className="w-6 h-6 group-hover:translate-x-3 transition-transform flex-none"
         stroke="currentColor"
-        class="w-6 h-6 group-hover:translate-x-3 transition:translate duration-200 flex-none"
+        strokeWidth="2"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
       >
         <path
           stroke-linecap="square"

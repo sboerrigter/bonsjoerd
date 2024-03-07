@@ -160,7 +160,7 @@ export default function Projects() {
             key={project.title}
           >
             <div className="aspect-square p-10 shadow-lg bg-white rounded-lg mb-5 group-hover:shadow-xl transition-shadow">
-              <div className="aspect-square bg-yellow-100 flex items-center justify-center p-5 font-normal italic text-gray-600">
+              <div className="aspect-square flex items-center justify-center p-5 font-normal italic text-gray-600">
                 I'll add an image here
                 <br /> when I have time... 😅
               </div>

@@ -2,7 +2,7 @@ export default function Socials() {
   const links = [
     {
       id: "github",
-      url: "https://github.com/sboerrigter",
+      href: "https://github.com/sboerrigter",
       icon: (
         <svg
           className="w-6 h-6"
@@ -18,7 +18,7 @@ export default function Socials() {
     },
     {
       id: "linkedin",
-      url: "https://www.linkedin.com/in/sboerrigter/",
+      href: "https://www.linkedin.com/in/sboerrigter/",
       icon: (
         <svg
           className="w-6 h-6"
@@ -36,7 +36,7 @@ export default function Socials() {
     },
     {
       id: "facebook",
-      url: "https://www.facebook.com/sjoerdboerrigter",
+      href: "https://www.facebook.com/sjoerdboerrigter",
       icon: (
         <svg
           className="w-6 h-6"
@@ -52,7 +52,7 @@ export default function Socials() {
     },
     {
       id: "youtube",
-      url: "https://www.youtube.com/@bonsjoerd1",
+      href: "https://www.youtube.com/@bonsjoerd1",
       icon: (
         <svg
           className="w-6 h-6"
@@ -74,7 +74,7 @@ export default function Socials() {
       {links.map((link) => (
         <a
           key={link.id}
-          url={link.url}
+          href={link.href}
           target="_blank"
           rel="nofollow"
           className="w-12 h-12 flex items-center justify-center rounded-full text-gray-800 bg-white hover:bg-yellow-500"

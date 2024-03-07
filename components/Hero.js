@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="w-full max-w-[480px] lg:max-w-[660px] lg:w-[55%] lg:mb-15 xl:mb-0">
           <Image
             src="/sjoerd.jpg"
-            className="photo rounded-xl z-1"
+            className="photo rounded-xl z-1 bg-green-700"
             alt="Sjoerd Boerrigter"
             width={600}
             height={720}

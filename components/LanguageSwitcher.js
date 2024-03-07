@@ -34,13 +34,13 @@ export default function LanguageSwitcher() {
         </svg>
       </div>
 
-      <div className="hidden group-hover:flex absolute right-0 top-12 bg-yellow-300 shadow-lg rounded-lg  min-w-45 flex-col overflow-hidden">
+      <div className="hidden group-hover:flex absolute right-0 top-12 bg-yellow-300 shadow-lg rounded-lg min-w-45 flex-col">
         {languages.map((language) => (
           <Link
             href="/"
             locale={language.locale}
             key={language.locale}
-            className="px-6 py-2 first:pt-5 last:pb-5 hover:underline"
+            className="px-6 py-2 first:pt-4 last:pb-4 hover:underline"
           >
             {language.label}
           </Link>

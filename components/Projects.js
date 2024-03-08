@@ -22,10 +22,10 @@ export default function Projects({ content }) {
       image: "/iphoned.jpg",
     },
     {
-      title: "Actief Twente",
-      services: "Branding, webdesign & development",
-      link: "https://www.actieftwente.nl/",
-      image: "/actief-twente.jpg",
+      title: "Naris",
+      services: "UX/UI Design",
+      link: "/naris.pdf",
+      image: "/naris.jpg",
     },
     {
       title: "The Flavor of Happiness",
@@ -34,10 +34,10 @@ export default function Projects({ content }) {
       image: "/the-flavor-of-happiness.jpg",
     },
     {
-      title: "Naris",
-      services: "UX/UI Design",
-      link: "/naris.pdf",
-      image: "/naris.jpg",
+      title: "Actief Twente",
+      services: "Branding, webdesign & development",
+      link: "https://www.actieftwente.nl/",
+      image: "/actief-twente.jpg",
     },
     {
       title: "DartsKing",

@@ -32,11 +32,7 @@ export default function Projects() {
       services: "Agile web development",
       link: "https://dartsking.nl/",
     },
-    {
-      title: "Dutch Shape",
-      services: "Web development",
-      link: "https://www.dutch-shape.nl/",
-    },
+
     {
       title: "Naris",
       services: "UX/UI Design",
@@ -53,6 +49,11 @@ export default function Projects() {
       link: "https://www.streaminglikeaboss.nl/",
     },
     {
+      title: "Dutch Shape",
+      services: "Web development",
+      link: "https://www.dutch-shape.nl/",
+    },
+    {
       title: "B&O Leselschade",
       services: "Branding, webdesign & development",
       link: "https://www.juristenkantoor.nl/",
@@ -63,39 +64,14 @@ export default function Projects() {
       link: "https://www.menkehorst.nl/",
     },
     {
-      title: "SKIM",
-      services: "Webdesign & development",
-      link: "https://www.skimgroup.com/",
-    },
-    {
       title: "Z-wave",
       services: "Web development",
       link: "https://www.z-wave.com/",
     },
     {
-      title: "Eventbureau.nl",
-      services: "Webdesign & development",
-      link: "https://www.eventbureau.nl/",
-    },
-    {
-      title: "Combidesk",
-      services: "UI/UX design & web development",
-      link: "https://combidesk.com/",
-    },
-    {
-      title: "Aworkx workwear",
-      services: "Webdesign & development",
-      link: "https://www.aworkx.nl/",
-    },
-    {
       title: "SW Vastgoedverbetering",
       services: "Web development",
       link: "https://www.swbv.nl/",
-    },
-    {
-      title: "Artiestenbureau.nl",
-      services: "Webdesign & development",
-      link: "https://www.artiestenbureau.nl/",
     },
     {
       title: "VDM Cars",
@@ -117,6 +93,18 @@ export default function Projects() {
       services: "Webdesign & development",
       link: "https://www.quality-bookings.nl/",
     },
+    // @todo add this project when redesign is live
+    // {
+    //   title: "Smartphone.nl",
+    //   services: "Agile web development",
+    //   link: "https://www.smartphone.nl/",
+    // },
+    // @todo add this project when redesign is live
+    // {
+    //   title: "SKIM",
+    //   services: "Webdesign & development",
+    //   link: "https://www.skimgroup.com/",
+    // },
   ];
 
   return (

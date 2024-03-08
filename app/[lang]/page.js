@@ -5,18 +5,10 @@ import Projects from "@/components/Projects";
 import { getDictionary } from "./dictionaries";
 
 export async function generateMetadata({ params: { lang } }) {
-  if (lang == "nl") {
-    return {
-      title: "NL BonSjoerd - Branding, design & web development",
-      description:
-        "Sjoerd Boerrigter, freelance designer & web developer from the Netherlands, living in Sarlat-la-Canéda in the south of France.",
-    };
-  } else {
-    return {
-      title: "EN BonSjoerd - Branding, design & web development",
-      description:
-        "Sjoerd Boerrigter, freelance designer & web developer from the Netherlands, living in Sarlat-la-Canéda in the south of France.",
-    };
+  const dictionary = await getDictionary(lang);
+
+  if (dictionary) {
+    return dictionary.metadata;
   }
 }
 

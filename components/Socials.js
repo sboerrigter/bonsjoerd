@@ -5,7 +5,7 @@ export default function Socials() {
       href: "https://github.com/sboerrigter",
       icon: (
         <svg
-          className="w-5 h-5"
+          className="w-6 h-6"
           fill="none"
           strokeWidth="2"
           stroke="currentColor"
@@ -21,7 +21,7 @@ export default function Socials() {
       href: "https://www.linkedin.com/in/sboerrigter/",
       icon: (
         <svg
-          className="w-5 h-5"
+          className="w-6 h-6"
           fill="none"
           strokeWidth="2"
           stroke="currentColor"
@@ -39,7 +39,7 @@ export default function Socials() {
       href: "https://www.facebook.com/sjoerdboerrigter",
       icon: (
         <svg
-          className="w-5 h-5"
+          className="w-6 h-6"
           fill="none"
           strokeWidth="2"
           stroke="currentColor"
@@ -55,7 +55,7 @@ export default function Socials() {
       href: "https://www.youtube.com/@bonsjoerd1",
       icon: (
         <svg
-          className="w-5 h-5"
+          className="w-6 h-6"
           fill="none"
           strokeWidth="2"
           stroke="currentColor"
@@ -74,7 +74,7 @@ export default function Socials() {
       {links.map((link) => (
         <a
           aria-label={link.id}
-          className="w-10 h-10 flex items-center justify-center rounded-full text-gray-800 bg-white hover:bg-yellow-500 transition-colors"
+          className="w-12 h-12 flex items-center justify-center rounded-full text-gray-800 bg-white hover:bg-yellow-500 transition-colors"
           href={link.href}
           key={link.id}
           rel="nofollow"

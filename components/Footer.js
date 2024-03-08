@@ -2,7 +2,7 @@ import Button from "@/components/Button";
 import Socials from "./Socials";
 import Wrap from "@/components/Wrap";
 
-export default function Footer() {
+export default function Footer({ content }) {
   return (
     <footer className="bg-green-700 text-white -mt-1 pt-1" id="contact">
       <Wrap>
@@ -11,19 +11,15 @@ export default function Footer() {
           className="bg-green-600 -mt-15 p-5 pb-10 2xs:p-10 2xs:pb-15 xl:p-15 xl:pb-20 xl:pt-15 rounded-xl"
         >
           <h2 className="text-[50px] leading-tight mb-6 xl:text-[60px] ">
-            Get in touch
+            {content.title}
           </h2>
 
           <div className="flex flex-col lg:flex-row gap-x-10 xl:gap-x-15 gap-y-10">
             <div>
-              <p>
-                Don't hesitate to contact me if you need help with branding,
-                design or web development. I am happy to help where I can!
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: content.text }}></p>
               <Button href="mailto:sjoerd@bonsjoerd.fr">
-                <span>
-                  Send <span className="hidden xs:inline">me</span> an e-mail
-                </span>
+                <span className="xs:hidden">{content.buttonLabelShort}</span>
+                <span className="hidden xs:inline">{content.buttonLabel}</span>
               </Button>
             </div>
 

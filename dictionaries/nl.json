@@ -4,6 +4,18 @@
     "description": "Hallo, ik ben ben Sjoerd Boerrigter. Een freelance designer & web developer uit Nederland, woonachtig in Sarlat-la-Canéda in Zuid-Frankrijk."
   },
   "hero": {
-    "title": "Hallo, ik ben Sjoerd"
+    "title": "Hallo, ik ben Sjoerd",
+    "text": "Ik ben freelance designer &amp; web developer uit Nederland, woonachtig in Sarlat-la-Canéda in Zuid-Frankrijk. I'm werk nog aan mijn Frans, maar ik ben wel goed in <a href='#services'>branding, design &amp; web development</a>. In mijn vrije tijd <a href='https://www.youtube.com/channel/UCNHwMsWwnJHmLAcJgup1-EQ' target='_blank'>renoveer</a> ik ons 150 jaar oude huis.",
+    "buttonLabel": "Neem contact op"
+  },
+  "projects": {
+    "text1": "Ik help bedrijven graag om hun merkidentiteit te definiëren en zichzelf op een aantrekkelijke manier te presenteren. Ik kan je helpen om op te vallen bij je ideale klanten en nieuwe klanten aan te trekken via internet.",
+    "text2": "Ik heb XXXX jaar ervaring als ontwerper & webontwikkelaar. Ik maak moderne websites met behulp van <strong>Sketch</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Tailwind CSS</strong> en <strong>WordPress</strong>. Dus, aarzel niet om <a href='#contact'>contact op te nemen</a> als je je bedrijf wil laten groeien!"
+  },
+  "footer": {
+    "title": "Neem contact op",
+    "text": "Aarzel niet om contact met me op te nemen als je hulp nodig hebt met branding, design of web development. Ik help graag waar ik kan!",
+    "buttonLabel": "Stuur me een e-mail",
+    "buttonLabelShort": "E-mail mij"
   }
 }

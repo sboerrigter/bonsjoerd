@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Wrap from "@/components/Wrap";
 
-export default function Projects() {
+export default function Projects({ content }) {
   const projects = [
     {
       title: "Maison 1870",
@@ -126,6 +126,8 @@ export default function Projects() {
     // },
   ];
 
+  const experience = new Date().getFullYear() - 2008;
+
   return (
     <section className="bg-yellow-50 pt-15 pb-30 xl:py-45" id="services">
       <Wrap className="flex flex-col md:flex-row gap-x-15 mb-15">
@@ -141,19 +143,12 @@ export default function Projects() {
         </h1>
 
         <div className="md:w-[55%]">
-          <p>
-            I love to help businesses to define their brand identity and present
-            themselves in an attractive way. I can help you to stand out to your
-            ideal clients and use the internet to attract new customers.
-          </p>
-          <p>
-            I have {new Date().getFullYear() - 2008} years experience as
-            designer &amp; web developer, building modern websites using{" "}
-            <strong>Sketch</strong>, <strong>React</strong>,{" "}
-            <strong>Next.js</strong>, <strong>Tailwind CSS</strong> and{" "}
-            <strong>WordPress</strong>. So don't hesitate to{" "}
-            <a href="#contact">contact me</a> if you want to grow your business!
-          </p>
+          <p dangerouslySetInnerHTML={{ __html: content.text1 }} />
+          <p
+            dangerouslySetInnerHTML={{
+              __html: content.text2.replace("XXXX", experience),
+            }}
+          ></p>
         </div>
       </Wrap>
 

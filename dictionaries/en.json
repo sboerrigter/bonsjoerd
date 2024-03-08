@@ -4,6 +4,18 @@
     "description": "Hello, I am Sjoerd Boerrigter. A freelance designer & web developer from the Netherlands, living in Sarlat-la-Canéda in the south of France."
   },
   "hero": {
-    "title": "Hello, I am Sjoerd"
+    "title": "Hello, I am Sjoerd",
+    "text": "I am a freelance designer &amp; web developer from the Netherlands, living in Sarlat-la-Canéda in the south of France. I'm still learning French, but I am good at <a href='#services'>branding, design &amp; web development</a>. In my free time I am <a href='https://www.youtube.com/channel/UCNHwMsWwnJHmLAcJgup1-EQ' target='_blank'>renovating</a> our 150 year old house.",
+    "buttonLabel": "Get in touch"
+  },
+  "projects": {
+    "text1": "I love to help businesses to define their brand identity and present themselves in an attractive way. I can help you to stand out to your ideal clients and use the internet to attract new customers.",
+    "text2": "I have XXXX years experience as designer &amp; web developer, building modern websites using <strong>Sketch</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Tailwind CSS</strong> and <strong>WordPress</strong>. So, don't hesitate to <a href='#contact'>contact me</a> if you want to grow your business!"
+  },
+  "footer": {
+    "title": "Get in touch",
+    "text": "Don't hesitate to contact me if you need help with branding, design or web development. I am happy to help where I can!",
+    "buttonLabel": "Send me an e-mail",
+    "buttonLabelShort": "E-mail me"
   }
 }

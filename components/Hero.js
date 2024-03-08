@@ -10,21 +10,11 @@ export default function Hero({ content }) {
           <h2 className="text-6xl mb-6 xs:text-[80px] xs:mb-10 xl:mb-15">
             {content.title}
           </h2>
-          <p className="xs:mb-10">
-            I am a freelance designer &amp; web developer from the Netherlands,
-            living in Sarlat-la-Canéda in the south of France. I'm still
-            learning French, but I am good at{" "}
-            <a href="#services">branding, design &amp; web development</a>. In
-            my free time I am{" "}
-            <a
-              href="https://www.youtube.com/channel/UCNHwMsWwnJHmLAcJgup1-EQ"
-              target="blank"
-            >
-              renovating
-            </a>{" "}
-            our 150 year old house.
-          </p>
-          <Button href="#contact">Get in touch</Button>
+          <p
+            className="xs:mb-10"
+            dangerouslySetInnerHTML={{ __html: content.text }}
+          />
+          <Button href="#contact">{content.buttonLabel}</Button>
         </div>
         <div className="w-full max-w-[480px] lg:max-w-[660px] lg:w-[55%] lg:mb-15 xl:mb-0">
           <Image

@@ -82,18 +82,17 @@ export default function Projects() {
       image: "/velda.jpg",
     },
     {
-      title: "B&O Leselschade",
-      services: "Branding, webdesign & development",
-      link: "https://www.juristenkantoor.nl/",
-      image: "/bo-letselschade.jpg",
-    },
-    {
       title: "Quality bookings",
       services: "Webdesign & development",
       link: "https://www.quality-bookings.nl/",
       image: "/quality-bookings.jpg",
     },
-
+    {
+      title: "B&O Leselschade",
+      services: "Branding, webdesign & development",
+      link: "https://www.juristenkantoor.nl/",
+      image: "/bo-letselschade.jpg",
+    },
     {
       title: "SW Vastgoedverbetering",
       services: "Web development",
@@ -143,13 +142,13 @@ export default function Projects() {
 
         <div className="md:w-[55%]">
           <p>
-            I like to help businesses to define their brand identity and present
+            I love to help businesses to define their brand identity and present
             themselves in an attractive way. I can help you to stand out to your
             ideal clients and use the internet to attract new customers.
           </p>
           <p>
-            I have {new Date().getFullYear() - 2008} years experience as design
-            &amp; web developer, building modern websites using{" "}
+            I have {new Date().getFullYear() - 2008} years experience as
+            designer &amp; web developer, building modern websites using{" "}
             <strong>Sketch</strong>, <strong>React</strong>,{" "}
             <strong>Next.js</strong>, <strong>Tailwind CSS</strong> and{" "}
             <strong>WordPress</strong>. So don't hesitate to{" "}

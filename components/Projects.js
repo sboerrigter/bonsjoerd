@@ -173,7 +173,7 @@ export default function Projects({ content }) {
                 />
               </div>
             </div>
-            <h3 className="font-semibold text-lg flex justify-center items-center">
+            <h2 className="font-semibold text-lg flex justify-center items-center">
               {project.title}
 
               <span className="inline-block w-0 h-auto overflow-visible opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all">
@@ -190,7 +190,7 @@ export default function Projects({ content }) {
                   />
                 </svg>
               </span>
-            </h3>
+            </h2>
             <p className="font-normal text-base text-gray-600">
               {project.services}
             </p>

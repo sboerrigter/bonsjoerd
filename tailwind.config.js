@@ -13,7 +13,8 @@ module.exports = {
       transparent: "transparent",
       gray: colors.gray,
       green: {
-        500: "#009999",
+        400: "#009999",
+        500: "#008080",
         600: "#006666",
         700: "#004D4D",
       },

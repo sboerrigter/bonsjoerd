@@ -73,11 +73,12 @@ export default function Socials() {
     <div className="flex gap-2">
       {links.map((link) => (
         <a
-          key={link.id}
-          href={link.href}
-          target="_blank"
-          rel="nofollow"
+          ariaLabel={link.id}
           className="w-10 h-10 flex items-center justify-center rounded-full text-gray-800 bg-white hover:bg-yellow-500 transition-colors"
+          href={link.href}
+          key={link.id}
+          rel="nofollow"
+          target="_blank"
         >
           {link.icon}
         </a>

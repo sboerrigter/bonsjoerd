@@ -5,20 +5,20 @@ import Link from "next/link";
 export default function LanguageSwitcher({ lang }) {
   let languages = [
     {
-      id: "en",
+      locale: "en",
       label: "English",
     },
     {
-      id: "fr",
+      locale: "fr",
       label: "Français",
     },
     {
-      id: "nl",
+      locale: "nl",
       label: "Nederlands",
     },
   ];
 
-  let currentLanguage = languages.find((language) => language.id === lang);
+  let currentLanguage = languages.find((language) => language.locale === lang);
   const otherLanguages = languages.filter(function (language) {
     return language !== currentLanguage;
   });
@@ -26,7 +26,7 @@ export default function LanguageSwitcher({ lang }) {
   return (
     <div className="relative font-semibold group">
       <div className="bg-yellow-300 group-hover:bg-yellow-500 cursor-pointer px-6 py-3 rounded-full flex gap-1 items-center">
-        <span className="xs:hidden">{currentLanguage.id}</span>
+        <span className="xs:hidden">{currentLanguage.locale}</span>
         <span className="hidden xs:block">{currentLanguage.label}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -44,8 +44,8 @@ export default function LanguageSwitcher({ lang }) {
         {otherLanguages.map((language) => (
           <Link
             className="px-6 py-2 first:pt-4 last:pb-4 hover:underline"
-            href={`/${language.id}`}
-            key={language.id}
+            href={`/${language.locale}`}
+            key={language.locale}
           >
             {language.label}
           </Link>

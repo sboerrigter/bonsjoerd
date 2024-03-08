@@ -5,7 +5,7 @@ export default function Socials() {
       href: "https://github.com/sboerrigter",
       icon: (
         <svg
-          className="w-6 h-6"
+          className="w-5 h-5"
           fill="none"
           strokeWidth="2"
           stroke="currentColor"
@@ -21,7 +21,7 @@ export default function Socials() {
       href: "https://www.linkedin.com/in/sboerrigter/",
       icon: (
         <svg
-          className="w-6 h-6"
+          className="w-5 h-5"
           fill="none"
           strokeWidth="2"
           stroke="currentColor"
@@ -39,7 +39,7 @@ export default function Socials() {
       href: "https://www.facebook.com/sjoerdboerrigter",
       icon: (
         <svg
-          className="w-6 h-6"
+          className="w-5 h-5"
           fill="none"
           strokeWidth="2"
           stroke="currentColor"
@@ -55,7 +55,7 @@ export default function Socials() {
       href: "https://www.youtube.com/@bonsjoerd1",
       icon: (
         <svg
-          className="w-6 h-6"
+          className="w-5 h-5"
           fill="none"
           strokeWidth="2"
           stroke="currentColor"
@@ -70,14 +70,14 @@ export default function Socials() {
   ];
 
   return (
-    <div className="flex gap-3">
+    <div className="flex gap-2">
       {links.map((link) => (
         <a
           key={link.id}
           href={link.href}
           target="_blank"
           rel="nofollow"
-          className="w-12 h-12 flex items-center justify-center rounded-full text-gray-800 bg-white hover:bg-yellow-500 transition-colors"
+          className="w-10 h-10 flex items-center justify-center rounded-full text-gray-800 bg-white hover:bg-yellow-500 transition-colors"
         >
           {link.icon}
         </a>

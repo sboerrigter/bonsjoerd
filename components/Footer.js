@@ -39,11 +39,17 @@ export default function Footer({ content }) {
 
               <div className="sm:w-1/2">
                 <p>
-                  <a className="text-white" href="mailto:sjoerd@bonsjoerd.fr">
+                  <a
+                    className="text-white hover:text-white"
+                    href="mailto:sjoerd@bonsjoerd.fr"
+                  >
                     sjoerd@bonsjoerd.fr
                   </a>
                   <br />
-                  <a className="text-white" href="tel:+31646277318">
+                  <a
+                    className="text-white hover:text-white"
+                    href="tel:+31646277318"
+                  >
                     +31 646 277 318
                   </a>
                 </p>

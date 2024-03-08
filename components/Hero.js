@@ -2,13 +2,13 @@ import Button from "@/components/Button";
 import Image from "next/image";
 import Wrap from "@/components/Wrap";
 
-export default function Hero() {
+export default function Hero({ content }) {
   return (
     <section>
       <Wrap className="flex flex-col-reverse lg:flex-row gap-x-15 items-center lg:items-start xl:-mb-30">
         <div className="pt-10 pb-15 lg:py-15 max-w-[480px] lg:w-[40%]">
           <h2 className="text-6xl mb-6 xs:text-[80px] xs:mb-10 xl:mb-15">
-            Hello, I am Sjoerd
+            {content.title}
           </h2>
           <p className="xs:mb-10">
             I am a freelance designer &amp; web developer from the Netherlands,

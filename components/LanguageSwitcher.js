@@ -2,22 +2,32 @@
 
 import Link from "next/link";
 
-const languages = [
-  {
-    locale: "fr",
-    label: "Français",
-  },
-  {
-    locale: "nl",
-    label: "Nederlands",
-  },
-];
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({ lang }) {
+  let languages = [
+    {
+      id: "en",
+      label: "English",
+    },
+    {
+      id: "fr",
+      label: "Français",
+    },
+    {
+      id: "nl",
+      label: "Nederlands",
+    },
+  ];
+
+  let currentLanguage = languages.find((language) => language.id === lang);
+  const otherLanguages = languages.filter(function (language) {
+    return language !== currentLanguage;
+  });
+
   return (
     <div className="relative font-semibold group">
       <div className="bg-yellow-300 group-hover:bg-yellow-500 cursor-pointer px-6 py-3 rounded-full flex gap-1 items-center">
-        <span className="xs:hidden">en</span>
-        <span className="hidden xs:block">English</span>
+        <span className="xs:hidden">{currentLanguage.id}</span>
+        <span className="hidden xs:block">{currentLanguage.label}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -31,12 +41,11 @@ export default function LanguageSwitcher() {
       </div>
 
       <div className="hidden group-hover:flex absolute right-0 top-12 bg-yellow-300 shadow-lg rounded-lg min-w-45 flex-col">
-        {languages.map((language) => (
+        {otherLanguages.map((language) => (
           <Link
-            href="/"
-            locale={language.locale}
-            key={language.locale}
             className="px-6 py-2 first:pt-4 last:pb-4 hover:underline"
+            href={`/${language.id}`}
+            key={language.id}
           >
             {language.label}
           </Link>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Wrap from "@/components/Wrap";
 
@@ -6,9 +5,9 @@ export default function Header({ lang }) {
   return (
     <header>
       <Wrap className="py-6 lg:py-9 flex justify-between">
-        <div className="flex gap-4 items-center jusify-center lowercase text-xl font-semibold lg:text-2xl">
+        <div className="flex gap-4 items-center jusify-center lowercase text-xl font-semibold lg:text-2xl group">
           <svg
-            className="w-10 h-10 animate-rock lg:w-12 lg:h-12"
+            className="w-10 h-10 animate-rock lg:w-12 lg:h-12 group-hover:animate-flip"
             viewBox="0 0 48 48"
             xmlns="http://www.w3.org/2000/svg"
           >

@@ -33,9 +33,14 @@ module.exports = {
         45: "11.25rem", // 180px
       },
       animation: {
+        flip: "flip 0.3s ease-out 1",
         rock: "rock 5s ease-out 1",
       },
       keyframes: {
+        flip: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
         rock: {
           "0%": { transform: "translate(5px, 0) rotate(10deg)" },
           "10%": { transform: "translate(-5px, 0) rotate(-10deg)" },

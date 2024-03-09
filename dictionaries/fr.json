@@ -1,20 +1,20 @@
 {
   "metadata": {
     "title": "BonSjoerd - Branding, design & web development",
-    "description": "Bonjour, je suis Sjoerd Boerrigter. Concepteur et développeur web indépendant des Pays-Bas, vivant à Sarlat-la-Canéda dans le sud de la France."
+    "description": "Bonjour, moi c'est Sjoerd Boerrigter. Concepteur et développeur web indépendant des Pays-Bas, je vis à Sarlat-la-Canéda dans le sud de la France."
   },
   "hero": {
     "title": "Bonjour, je suis Sjoerd",
-    "text": "Je suis concepteur et développeur web indépendant des Pays-Bas, vivant à Sarlat-la-Canéda dans la Dordogne. J'apprends encore le français, mais je suis doué pour <a href='#services'>l'image de marque, la conception et le développement web</a>. Pendant mon temps libre, je <a href='https://www.youtube.com/channel/UCNHwMsWwnJHmLAcJgup1-EQ' target='_blank'>rénove</a> notre maison de 150 ans.",
+    "text": "Je suis concepteur et développeur web indépendant des Pays-Bas, et je vis à Sarlat-la-Canéda dans le sud de la France. J'apprends encore le français, mais je suis doué pour <a href='#services'>le branding, la conception et le développement web</a>. Pendant mon temps libre, je <a href='https://www.youtube.com/channel/UCNHwMsWwnJHmLAcJgup1-EQ' target='_blank'>rénove</a> notre maison vieille de 150 ans.",
     "buttonLabel": "Contactez-moi"
   },
   "projects": {
-    "text1": "J'aime aider les entreprises à définir leur identité de marque et à se présenter de manière attrayante. Je peux vous aider à vous démarquer auprès de vos clients idéaux et à utiliser Internet pour attirer de nouveaux clients.",
-    "text2": "J'ai XXXX années d'expérience en tant que concepteur et développeur web, créant des sites web modernes avec <strong>Sketch</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Tailwind CSS</strong> et <strong>WordPress</strong>. Alors n'hésitez pas à <a href='#contact'>me contacter</a> si vous souhaitez développer votre entreprise !"
+    "text1": "J'aime aider les entreprises à définir l'identité de leur marque et à se présenter de manière attrayante. Je peux vous aider à vous démarquer auprès de vos clients idéaux et à utiliser Internet pour attirer de nouveaux clients.",
+    "text2": "J'ai XXXX années d'expérience en tant que concepteur et développeur web. Je crée des sites web modernes avec <strong>Sketch</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Tailwind CSS</strong> et <strong>WordPress</strong>. Alors n'hésitez pas à <a href='#contact'>me contacter</a> si vous souhaitez développer votre entreprise !"
   },
   "footer": {
     "title": "Contactez-moi",
-    "text": "N'hésitez pas à me contacter si vous avez besoin d'aide pour l'image de marque, la conception ou le développement web. Je suis heureux d'aider là où je peux !",
+    "text": "N'hésitez pas à me contacter si vous avez besoin d'aide pour le branding (image de marque), la conception ou le développement web. Je serai ravi de pouvoir vous aider !",
     "buttonLabel": "Envoie-moi un email",
     "buttonLabelShort": "Email moi"
   }

@@ -1,13 +1,25 @@
+"use client";
+
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Wrap from "@/components/Wrap";
+import { useState } from "react";
 
 export default function Header({ lang }) {
+  const [flip, setFlip] = useState(false);
+
   return (
     <header>
       <Wrap className="py-6 lg:py-9 flex justify-between">
-        <div className="flex gap-4 items-center jusify-center lowercase text-xl font-semibold lg:text-2xl group">
+        <div
+          className="flex gap-4 items-center jusify-center lowercase text-xl font-semibold lg:text-2xl group cursor-pointer"
+          onClick={() => setFlip(true)}
+        >
           <svg
-            className="w-10 h-10 animate-rock lg:w-12 lg:h-12 group-hover:animate-flip"
+            onClick={() => setFlip(true)}
+            onAnimationEnd={() => setFlip(false)}
+            className={`w-10 h-10 lg:w-12 lg:h-12 ${
+              flip ? "animate-flip" : "animate-rock"
+            }`}
             viewBox="0 0 48 48"
             xmlns="http://www.w3.org/2000/svg"
           >

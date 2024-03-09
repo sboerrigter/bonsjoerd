@@ -10,7 +10,7 @@ export default function Footer({ content }) {
           id="contact"
           className="bg-green-600 -mt-15 p-5 pb-10 2xs:p-10 2xs:pb-15 xl:p-15 xl:pb-20 xl:pt-15 rounded-xl"
         >
-          <h2 className="text-[50px] leading-tight mb-6 xl:text-[60px] ">
+          <h2 className="text-[40px] md:text-[50px] xl:text-[60px] leading-tight mb-6">
             {content.title}
           </h2>
 

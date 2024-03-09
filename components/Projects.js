@@ -133,11 +133,11 @@ export default function Projects({ content }) {
       <Wrap className="flex flex-col md:flex-row gap-x-15 mb-15">
         <h1
           className="
-        text-[40px] leading-tight mb-6
-        md:w-[40%] md:mb-0
-        lg:text-[50px]
-        xl:text-[60px]
-      "
+            text-[40px] leading-tight mb-6
+            md:w-[40%] md:mb-0
+            lg:text-[50px]
+            xl:text-[60px]
+          "
         >
           Branding, design&nbsp;&amp; web development
         </h1>

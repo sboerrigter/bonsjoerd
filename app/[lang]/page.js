@@ -6,9 +6,13 @@ import { getDictionary } from "./dictionaries";
 
 export async function generateMetadata({ params: { lang } }) {
   const dictionary = await getDictionary(lang);
-
   if (dictionary) {
-    return dictionary.metadata;
+    let metadata = {
+      ...dictionary.metadata,
+      metadataBase: new URL("https://www.bonsjoerd.fr"),
+    };
+
+    return metadata;
   }
 }
 

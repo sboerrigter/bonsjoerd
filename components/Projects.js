@@ -16,10 +16,10 @@ export default function Projects({ content }) {
       image: "/keizers.jpg",
     },
     {
-      title: "iPhoned",
+      title: "Androidworld",
       services: "Agile web development",
-      link: "https://www.iphoned.nl/",
-      image: "/iphoned.jpg",
+      link: "https://www.androidworld.nl/",
+      image: "/androidworld.jpg",
     },
     {
       title: "Naris",
@@ -100,30 +100,17 @@ export default function Projects({ content }) {
       image: "/sw.jpg",
     },
     {
-      title: "VDM Cars",
-      services: "Web development",
-      link: "https://www.vdmcars.de/",
-      image: "/vdm-cars.jpg",
+      title: "Combidesk",
+      services: "Branding, webdesign & development",
+      link: "https://www.combidesk.com/",
+      image: "/combidesk.jpg",
     },
     {
-      title: "Z-wave",
-      services: "Web development",
-      link: "https://www.z-wave.com/",
-      image: "/z-wave.jpg",
+      title: "SKIM",
+      services: "Webdesign & development",
+      link: "https://www.skimgroup.com/",
+      image: "/skim.jpg",
     },
-    // @todo add these projects when they are live
-    // {
-    //   title: "Smartphone.nl",
-    //   services: "Agile web development",
-    //   link: "https://www.smartphone.nl/",
-    // image: "/smartphone.jpg",
-    // },
-    // {
-    //   title: "SKIM",
-    //   services: "Webdesign & development",
-    //   link: "https://www.skimgroup.com/",
-    // image: "/skimgroup.jpg",
-    // },
   ];
 
   const experience = new Date().getFullYear() - 2008;

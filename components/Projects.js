@@ -70,7 +70,7 @@ export default function Projects({ content }) {
       image: "/naris.jpg",
     },
     {
-      title: "B&O Leselschade",
+      title: "B&O Letselschade",
       services: "Branding, webdesign & development",
       link: "https://www.juristenkantoor.nl/",
       image: "/bo-letselschade.jpg",

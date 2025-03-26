@@ -17,7 +17,7 @@ export default function Footer({ content }) {
           <div className="flex flex-col lg:flex-row gap-x-10 xl:gap-x-15 gap-y-10">
             <div>
               <p dangerouslySetInnerHTML={{ __html: content.text }}></p>
-              <Button href="mailto:s.boerrigter@gmail.com">
+              <Button href="mailto:sjoerd@bonsjoerd.eu">
                 <span className="xs:hidden">{content.buttonLabelShort}</span>
                 <span className="hidden xs:inline">{content.buttonLabel}</span>
               </Button>
@@ -41,9 +41,9 @@ export default function Footer({ content }) {
                 <p>
                   <a
                     className="text-white hover:text-white"
-                    href="mailto:s.boerrigter@gmail.com"
+                    href="mailto:sjoerd@bonsjoerd.eu"
                   >
-                    s.boerrigter@gmail.com
+                    sjoerd@bonsjoerd.eu
                   </a>
                   <br />
                   <a

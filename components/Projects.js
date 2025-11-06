@@ -28,10 +28,10 @@ export default function Projects({ content }) {
       image: "/actief-twente.jpg",
     },
     {
-      title: "Keizers tegels & sanitair",
-      services: "Webdesign & development",
-      link: "https://www.keizerssanitair.nl/",
-      image: "/keizers.jpg",
+      title: "DartsKing",
+      services: "Agile web development",
+      link: "https://dartsking.nl/",
+      image: "/dartsking.jpg",
     },
     {
       title: "SKIM",
@@ -50,12 +50,6 @@ export default function Projects({ content }) {
       services: "Branding",
       link: "/the-flavor-of-happiness.pdf",
       image: "/the-flavor-of-happiness.jpg",
-    },
-    {
-      title: "DartsKing",
-      services: "Agile web development",
-      link: "https://dartsking.nl/",
-      image: "/dartsking.jpg",
     },
     {
       title: "Quality bookings",
